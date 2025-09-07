@@ -1,7 +1,25 @@
-.container{
-    margin: 0 auto;
-    width: 1150px;
-    padding: 0 20px;
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 body{
@@ -15,6 +33,12 @@ button{
     font-family: inherit;
 }
 
+.container{
+    margin: 0 auto;
+    width: 1150px;
+    padding: 0 20px;
+}
+
 .header-container{
     display: flex;
     align-items: center;
@@ -24,11 +48,18 @@ button{
     margin-right: 237px;
 }
 
-.logo{
+.logo {
     display: flex;
-    gap: 16px;
     align-items: center;
-    font-weight: 700px;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.header-nav{
+    margin-right: auto;
 }
 
 .header-nav-list{
@@ -46,7 +77,114 @@ button{
     margin-right: 30px;
 }
 
+.current {
+    font-weight: 600;
+}
+
 .header-btn-list{
     display: flex;
     gap: 21px;
+}
+
+.header-btn {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    min-width: 105px;
+    height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #173a56;
+    background-color: transparent;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: #fff;
+    background-color: #02897a;
+    border: none;
+}
+
+.first-section{
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.section-title{
+    font-size: 40px;
+    line-height: 1.5;
+    max-width: 452px;
+}
+
+.section-text{
+    margin: 18px 0 45px 0;
+    font-size: 18px;
+    line-height: 1.56;
+    max-width: 465px;
+}
+
+.section-button-list{
+    display: flex;
+    gap: 30px;
+}
+
+.section-button{
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color:#02897a ;
+    border-radius: 4px;
+    padding: 15px 41.7px;
+}
+
+.section-button-link{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    background-color: transparent;
+    border: none;
+}
+
+.but{
+    width: 178px;
+    height: 53px;
+}
+
+.second-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.second-section-title{
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.features-list{
+    display: flex;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.feature-title{
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+
+.feature{
+    width: calc((100% - 3*30px)/4);
+}
+
+.second-sect-but{
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-color: #02897A;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    min-width: 175px;
+    height: 53px;
+    border: none;
 }

@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business promotion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -40,51 +48,56 @@
         </div>
     </header>
     <main>
-        <section>
-            <h1>Work at the speed of thought</h1>
-            <p>
-                Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user
-            experience.
-            </p>
-            <li>
-                <button type="button">Get started</button>
-            </li>
-            <li>
-                <button type="button">Watch the Video</button>
-            </li>
-            <img src="./images/hero-img.svg" alt="hero image" width="610" height="555">
+        <section class="first-section">
+            <div class="container">
+                <h1 class="section-title">Work at the speed of thought</h1>
+                <p class="section-text">
+                    Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user
+                experience.
+                </p>
+                <ul class="section-button-list">
+                    <li class="section-button-item">
+                        <button class="section-button but" type="button">Get started</button>
+                    </li>
+                    <li class="section-button-item">
+                        <button class="section-button-link but" type="button">Watch the Video</button>
+                    </li>
+                </ul>
+                <img src="./images/hero-img.svg" alt="hero image" width="610" height="555">
         </section>
-        <section>
-            <h2>Product was Built Specifically for You</h2>
-            <ul>
-                <li>
-                    <img src="./images/icon-1.svg" alt="icon-1" width="54" height="54">
-                    <h3>First click tests</h3>
-                    <p>
-                        While most people enjoy casino gambling,
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/icon-2.svg" alt="icon-2" width="54" height="54">
-                    <h3>Design surveys</h3>
-                    <p>
-                        Sports betting, lottery and bingo playing for the fun
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/icon-3.svg" alt="icon-3" width="54" height="54">
-                    <h3>Preference tests</h3>
-                    <p>
-                        The Myspace page defines the individual.
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/icon-4.svg" alt="icon-4" width="54" height="54">
-                    <h3>Five second tests</h3>
-                    <p>Personal choices and the overall personality of the person.</p>
-                </li>
-            </ul>
-            <button type="button">Sign up now</button>
+        <section class="second-section">
+            <div class="container">
+                <h2 class="second-section-title">Product was Built Specifically for You</h2>
+                <ul class="features-list">
+                    <li class="feature">
+                        <img src="./images/icon-1.svg" alt="icon-1" width="54" height="54">
+                        <h3 class="feature-title">First click tests</h3>
+                        <p>
+                            While most people enjoy casino gambling,
+                        </p>
+                    </li>
+                    <li class="feature">
+                        <img src="./images/icon-2.svg" alt="icon-2" width="54" height="54">
+                        <h3 class="feature-title">Design surveys</h3>
+                        <p>
+                            Sports betting, lottery and bingo playing for the fun
+                        </p>
+                    </li>
+                    <li class="feature">
+                        <img src="./images/icon-3.svg" alt="icon-3" width="54" height="54">
+                        <h3 class="feature-title">Preference tests</h3>
+                        <p>
+                            The Myspace page defines the individual.
+                        </p>
+                    </li>
+                    <li class="feature">
+                        <img src="./images/icon-4.svg" alt="icon-4" width="54" height="54">
+                        <h3 class="feature-title">Five second tests</h3>
+                        <p>Personal choices and the overall personality of the person.</p>
+                    </li>
+                </ul>
+                <button class="second-sect-but" type="button">Sign up now</button>
+            </div>
         </section>
 
         <section>
